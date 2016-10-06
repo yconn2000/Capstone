@@ -7,7 +7,7 @@ Final product is a Shonny app that using the n-gram data table to predict the ne
 
 R Presentation deck URL
 
-http://rpubs.com/yconn2000/215691
+http://rpubs.com/yconn2000/215695
 
 Shiny app URL
 

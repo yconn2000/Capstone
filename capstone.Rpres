@@ -1,0 +1,47 @@
+Data Science Capstone Project
+========================================================
+author: Ed Yang
+date: 10/068/2016
+autosize: true
+
+A brief presentation of the application
+
+Objective
+========================================================
+
+To create a Shiny application that can predict the next word.
+
+Using class dataset to produce a model using ranking table to predict the next work
+
+We also try to make the application as light as possible so it can be used in devices that have less CPU power and memory
+
+
+
+Methodology
+========================================================
+
+First we import the data from the class dataset
+
+After initial exploratory analysis, we clean the data by taking out space, unwanted characters change to all lower case and punctuation. Using 10% to create training set.
+
+We tokenize the training set, create n-gram analysis (1,2 and 3 grams) data frame and use it in the application to predict next word.
+
+Finally using the application to retrieve predictions from n-gram array
+
+Application
+========================================================
+The UI is very simple and straight forward. First enter the text,
+
+No fancy interface because this application need to run on mobile device.
+Then select the next word from the list
+
+Shiny app URL:
+
+https://yconn2000.shinyapps.io/data_science_capstone/
+
+Conclusion
+=======================================================
+Predicting language is not a easy task, it takes a lot of computing resources and time to fine tune the final reference array.
+
+Next step will be personalize the prediction, using current prediction tools and add user's personal preference. This can be the future of this kind of prediction.
+Making computer learn form a person's writing style and duplicate the style.
